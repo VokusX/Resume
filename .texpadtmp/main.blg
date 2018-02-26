@@ -1,5 +1,5 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
-[0] Config.pm:357> INFO - Logfile is '/Users/david/Desktop/Resume/Resume/.texpadtmp/main.blg'
-[42] biber-darwin:303> INFO - === Mon Oct 16, 2017, 10:12:24
-[62] Utils.pm:180> ERROR - /Users/david/Desktop/Resume/Resume/.texpadtmp/main.bcf is malformed, last biblatex run probably failed. Deleted /Users/david/Desktop/Resume/Resume/.texpadtmp/main.bbl
-[62] Biber.pm:113> INFO - ERRORS: 1
+[0] Config.pm:357> INFO - Logfile is '/Users/david/Documents/Resume/Resume/.texpadtmp/main.blg'
+[43] biber-darwin:303> INFO - === Mon Feb  5, 2018, 17:19:05
+[67] Biber.pm:359> INFO - Reading '/Users/david/Documents/Resume/Resume/.texpadtmp/main.bcf'
+[151] Utils.pm:164> WARN - No data sources defined!

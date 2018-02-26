@@ -127,6 +127,19 @@
   \smallskip
   \ifstrequal{#4}{}{}{#4}}\par
   \medskip
+  
+ \newcommand{\cvaward}[2]{%
+ {\large\color{accent}\faStar \hspace{0.5em}\color{emphasis}#1}\par\smallskip
+ {#2}}\par
+ \medskip
+ 
+ \newcommand{\cvHack}[3]{%
+  {\large\color{emphasis}#1\par}
+  \smallskip
+  \textbf{\color{accent}#2}\par
+  \smallskip
+  {#3}}\par
+  \medskip
 
 \newcommand{\cvachievement}[3]{%
   \begin{tabularx}{\linewidth}{@{}p{2em} @{\hspace{1ex}} >{\raggedright\arraybackslash}X@{}}
