@@ -60,6 +60,7 @@
 \newcommand{\githubsymbol}{\faGithub}
 \newcommand{\orcidsymbol}{\aiOrcid}
 \newcommand{\mailsymbol}{\faEnvelope}
+\newcommand{\mapsymbol}{\faCalendar}
 
 \newcommand{\printinfo}[2]{\mbox{\textcolor{accent}{#1}\hspace{0.5em}#2\hspace{2em}}}
 
@@ -75,6 +76,7 @@
 \newcommand{\github}[1]{\printinfo{\githubsymbol}{\href{https://github.com/#1}{\@#1}}}
 \newcommand{\orcid}[1]{\printinfo{\orcidsymbol}{#1}}
 \newcommand{\location}[1]{\printinfo{\locationsymbol}{#1}}
+\newcommand{\map}[1]{\printinfo{\mapsymbol}{#1}}
 
 \newcommand{\personalinfo}[1]{\def\@personalinfo{#1}}
 
@@ -140,6 +142,11 @@
   \smallskip
   {#3}}\par
   \medskip
+  
+  \newcommand{\cvHackNoPrize}[2]{%
+  {\large\color{emphasis}#1\par}
+  \smallskip
+  \textbf{\color{accent}#2}\par}
 
 \newcommand{\cvachievement}[3]{%
   \begin{tabularx}{\linewidth}{@{}p{2em} @{\hspace{1ex}} >{\raggedright\arraybackslash}X@{}}
